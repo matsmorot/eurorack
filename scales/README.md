@@ -3,4 +3,6 @@ Scales is a quantizer first made by L.Geerinckx as a perfboard version. I wanted
 
 I decided to make some changes to the layout of the front panel, which you can see here.
 
+<img src="./images/scales_kicad_3d.png" height="600px" />
+
 Original repo: https://github.com/PierreIsCoding/sdiy/tree/main/Quantizer
