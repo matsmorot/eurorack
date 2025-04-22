@@ -20,10 +20,17 @@ I decided to make some changes to the layout of the front panel, which you can s
   <li>I have moved the buttons to different input pins on the Arduino Nano, so the original code won't work with this PCB.</li>
 </ul>
 
+## PCB rev 3:
+<ul>
+  <li>Pins A6 and A7 can not be used on the Arduino Nano without bridging them to other pins. I have connected them to D11 and D12 on mine. Another option is to use an <b>LGT8F328P</b> board, where you can use A6 and A7 as digital pins.</li>
+  <li>I noticed that the mounting holes from rev 1 has disappeared from the layout. Will add them in rev 4.</li>
+</ul>
+
 ## Panel rev 1:
 <ul>
   <li>The intention was to use flat head LEDs, but the holes are about 0.1 mm too small. "Normal" 3 mm tapered LEDs will fit, but just barely. Just put them flush to the panel and it will work out OK.</li>
   <li>Unfortunately the holes for the tact button switches are also too small and will have to be drilled slightly. About as much as the plating. I'm using 13 mm's, but 14 would probably work as well.</li>
+  <li>Unfortunately a mounting hole through the panel is needed. Without one, the PCB will move when you press the buttons. Very annoying. Will fix in rev 2 of the panel.</li>
 </ul>
 
 Original repo: https://github.com/PierreIsCoding/sdiy/tree/main/Quantizer
