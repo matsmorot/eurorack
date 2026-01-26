@@ -26,11 +26,22 @@ I decided to make some changes to the layout of the front panel, which you can s
   <li>I noticed that the mounting holes from rev 1 has disappeared from the layout. Will add them in rev 4.</li>
 </ul>
 
+## PCB rev 4:
+<ul>
+  <li>Added missing 2.5 mm mounting hole</li>
+</ul>
+
 ## Panel rev 1:
 <ul>
   <li>The intention was to use flat head LEDs, but the holes are about 0.1 mm too small. "Normal" 3 mm tapered LEDs will fit, but just barely. Just put them flush to the panel and it will work out OK.</li>
   <li>Unfortunately the holes for the tact button switches are also too small and will have to be drilled slightly. About as much as the plating. I'm using 13 mm's, but 14 would probably work as well.</li>
   <li>Unfortunately a mounting hole through the panel is needed. Without one, the PCB will move when you press the buttons. Very annoying. Will fix in rev 2 of the panel.</li>
+</ul>
+
+## Panel rev 2:
+<ul>
+  <li>0.1 mm wider holes for LEDs and buttons</li>
+  <li>2.5 mm mounting hole added</li>
 </ul>
 
 Original repo: https://github.com/PierreIsCoding/sdiy/tree/main/Quantizer
